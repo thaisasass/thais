@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>.</title>
+        <link rel="shortcut icon" href="assets/css/images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" /
+
+		<!-- CSS -->
+        <link rel="stylesheet" href="assets/css/main_final.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome-animation.min.css" >
+
+	</head>
+	<body class="loading">
+		<!-- Música de Fundo -->
+        <audio src="assets/audio/MeuSol.mp3" controls autoplay loop></audio>
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+                <!-- Header -->
+				<header id="header">
+				    <h1>Obrigado Princesa!</h1>
+				    <p>"Eu já me preparei demais e declaro. Agora é a hora"</p>
+				    <p>"Vem depressa, não demora. Meu sol. Saiba você é, meu sol"</p>
+				    <nav>
+				    <nav>
+				        <ul>
+                            <!--<li><a class="icon fa-heart faa-pulse animated" ><span class="label">heart</span></a></li>-->
+				            <!--<li><a class="icon fa-facebook faa-pulse animated" href="http://www.facebook.com/sharer/sharer.php?u=http://alexaquino.space/me_namora/index.html" rel="nofollow" onclick="window.open(this.href, 'tb-face-popup', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,left=980,top=370,width=400,height=200'); return false;"><span class="label">heart</span></a></li>-->
+                            <li><a class="icon fa-twitter faa-pulse animated" href="https://twitter.com/intent/tweet?url=https://alexaquino.github.io/"><span class="label">twitter</span></a></li>
+                        </ul>
+				    </nav>
+				</header>
+				<!-- Footer -->
+				<footer id="footer">
+				    <p> Diego R. &ensp;<span class="icon fa-heart"></span>&ensp; Thais Silva </p>
+				</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
